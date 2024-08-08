@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:graphql/client.dart';
-import 'package:graphql_flutter_bloc/graphql_flutter_bloc.dart';
+import 'package:graphql_flutter_bloc_plus/graphql_flutter_bloc_plus.dart';
 
 abstract class MutationBloc<TData>
     extends Bloc<MutationEvent<TData>, MutationState<TData>> {

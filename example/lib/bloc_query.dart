@@ -6,7 +6,7 @@ import 'package:graphql/client.dart';
 import 'package:example/bloc/companies_paginated_bloc.dart';
 import 'package:example/graphql_provider.dart';
 import 'package:example/models/graphql/q.graphql_api.graphql.dart';
-import 'package:graphql_flutter_bloc/graphql_flutter_bloc.dart';
+import 'package:graphql_flutter_bloc_plus/graphql_flutter_bloc_plus.dart';
 
 class BlocQuery extends StatefulWidget {
   const BlocQuery({Key? key}) : super(key: key);

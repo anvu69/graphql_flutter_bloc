@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:graphql/client.dart';
-import 'package:graphql_flutter_bloc/src/helper.dart';
+import 'package:graphql_flutter_bloc_plus/src/helper.dart';
 
 import 'event.dart';
 import 'state.dart';

@@ -13,7 +13,7 @@ description: Demo on how to use `graphql_flutter_bloc`
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 version: 1.0.0+1
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -24,11 +24,9 @@ dependencies:
   path_provider: ^2.0.9
   flutter_bloc: ^8.0.1
   json_serializable: ^6.1.6
-  gql: ^0.14.0
-  http: ^0.13.5
-  hive: ^2.1.0
-  graphql: ^5.1.1
-  graphql_flutter_bloc:
+  hive: ^2.2.3
+  graphql: ^5.1.3
+  graphql_flutter_bloc_plus:
     path: ../
 
   # The following adds the Cupertino Icons font to your application.
@@ -39,12 +37,14 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   build_runner: ^2.1.7
-  artemis: ^7.7.0-beta
+  artemis: ^7.13.1
   flutter_lints: ^1.0.4
 
 dependency_overrides:
   path: ^1.8.1
   collection: 1.17.0
+  http: ^1.2.2
+  gql: ^1.0.0+1
 
 #  rxdart: ^0.24.1
 #  meta: 1.2.2
@@ -55,7 +55,6 @@ dependency_overrides:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

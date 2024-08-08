@@ -4,7 +4,7 @@ import 'package:example/models/graphql/s.graphql_api.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:graphql/client.dart';
-import 'package:graphql_flutter_bloc/graphql_flutter_bloc.dart';
+import 'package:graphql_flutter_bloc_plus/graphql_flutter_bloc_plus.dart';
 
 class BlocSubscription extends StatefulWidget {
   const BlocSubscription({Key? key}) : super(key: key);

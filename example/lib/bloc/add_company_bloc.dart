@@ -1,6 +1,6 @@
 import 'package:example/models/graphql/q.graphql_api.dart';
 import 'package:graphql/client.dart';
-import 'package:graphql_flutter_bloc/graphql_flutter_bloc.dart';
+import 'package:graphql_flutter_bloc_plus/graphql_flutter_bloc_plus.dart';
 
 class AddCompanyBloc extends MutationBloc<AddCompany$Mutation> {
   AddCompanyBloc({
