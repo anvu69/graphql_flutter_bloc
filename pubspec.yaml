@@ -13,7 +13,7 @@ dependencies:
   freezed_annotation: ">=2.2.0"
   flutter_bloc: ">=8.1.6"
   bloc_concurrency: ">=0.2.5"
-  http: ">=1.2.2"
+  http: ">=0.13.0 <=1.2.2"
   gql: ">=1.0.0+1"
   graphql: ">=5.1.3"
 
